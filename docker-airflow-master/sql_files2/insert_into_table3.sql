@@ -1,0 +1,1 @@
+LOAD DATA LOCAL INFILE '/usr/local/airflow/store_files_mysql2/clean_AB_NYC_2019_0.csv' INTO TABLE airbnb_listings FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
